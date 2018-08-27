@@ -22,7 +22,7 @@
 </style>
     
  </head>
- <body style="background-image: url(image/main.png);background-repeat: no-repeat;background-attachment: fixed;
+ <body style="background-image: url(image/main1.jpg);background-repeat: no-repeat;background-attachment: fixed;
 background-size: cover;
 ">
  	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -34,7 +34,7 @@ background-size: cover;
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: rgb(63,81,181);">
-        <a class="mdl-navigation__link" href="index.html">Home</a>
+        <a class="mdl-navigation__link" href="../templates/index.html">Home</a>
         <a class="mdl-navigation__link" href="author.html">Author</a>
         <a class="mdl-navigation__link" href="latest.html">Latest</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
@@ -44,7 +44,7 @@ background-size: cover;
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">WIWIM - CU(MDY)</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="index.html">Home</a>
+      <a class="mdl-navigation__link" href="../templates/index.html">Home</a>
       <a class="mdl-navigation__link" href="author.html">Author</a>
       <a class="mdl-navigation__link" href="latest.html">Latest</a>
       <a class="mdl-navigation__link" href="search.html">Search</a>
@@ -94,19 +94,20 @@ background-size: cover;
 <script type="text/javascript">
   $(document).ready(function(){
     $('.carousel').carousel({
-      dist:0,
+      dist:-100,
       padding:0,
       indicators:true,
-      duration:10,
+      duration:200,
     });
   });
   autoplay()
   function autoplay(){
     $('.carousel').carousel('next');
-    setTimeout(autoplay,1000);
+    setTimeout(autoplay,3);
   }
 
 </script>
+<h2 align="center">Beauty of Myanmar</h2>
   
 
 <footer class="mdl-mega-footer">
