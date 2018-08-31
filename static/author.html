@@ -12,19 +12,26 @@
 </script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>ETD - CU MDY</title>
+    <title>WIWIM - CU MDY</title>
 <style type="text/css">
-	img{
-		height: 450px;
-    width: 100%;
+body{	
+	background-image: url(image/main1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	}
- 
+  img{
+    width: 100%;
+   height: 400px;
+  }
+main a .mdl-tabs__tab{
+  color: rgba(150,200,150,1);
+  font-weight: bolder;
+}
 </style>
     
  </head>
- <body style="background-image: url(image/main1.jpg);background-repeat: no-repeat;background-attachment: fixed;
-background-size: cover;
-">
+ <body>
  	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
@@ -34,7 +41,7 @@ background-size: cover;
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only" style="background-color: rgb(63,81,181);">
-        <a class="mdl-navigation__link" href="../templates/index.html">Home</a>
+        <a class="mdl-navigation__link" href="https://wiwim-nano.herokuapp.com/">Home</a>
         <a class="mdl-navigation__link" href="author.html">Author</a>
         <a class="mdl-navigation__link" href="latest.html">Latest</a>
         <a class="mdl-navigation__link" href="search.html">Search</a>
@@ -44,7 +51,7 @@ background-size: cover;
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">WIWIM - CU(MDY)</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="../templates/index.html">Home</a>
+      <a class="mdl-navigation__link" href="https://wiwim-nano.herokuapp.com/">Home</a>
       <a class="mdl-navigation__link" href="author.html">Author</a>
       <a class="mdl-navigation__link" href="latest.html">Latest</a>
       <a class="mdl-navigation__link" href="search.html">Search</a>
@@ -54,7 +61,7 @@ background-size: cover;
 	<div class="page-content">
     	<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
   			<div class="mdl-tabs__tab-bar">
-      <a href="member.html" class="mdl-tabs__tab">Members</a>
+      <a href="member.html" class="mdl-tabs__tab" >Members</a>
       <a href="party.html" class="mdl-tabs__tab">Parities</a>
       <a href="business.html" class="mdl-tabs__tab">Business Leaders</a>
       <a href="cele.html" class="mdl-tabs__tab">Celebrities</a>
@@ -66,27 +73,49 @@ background-size: cover;
   <div class="carousel carousel-slider" data-indicators="true">
     <div class="carousel-item">
       <div class="container">
-        <img src="image/caro1.png">
+        <img src="image/caro/caro.jpg">
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="image/caro/caro1.jpg">
       </div>
     </div>
      <div class="carousel-item">
       <div class="container">
-        <img src="image/caro2.png">
+        <img src="image/caro/caro2.jpg">
       </div>
     </div>
      <div class="carousel-item">
       <div class="container">
-        <img src="image/caro3.png">
+        <img src="image/caro/caro3.jpg">
       </div>
     </div>
      <div class="carousel-item">
       <div class="container">
-        <img src="image/caro4.png">
+        <img src="image/caro/caro4.jpg">
       </div>
     </div>
      <div class="carousel-item">
       <div class="container">
-        <img src="image/caro5.png" >
+        <img src="image/caro/caro5.jpg" >
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img src="image/caro/caro6.jpg">
+      </div>
+    </div><div class="carousel-item">
+      <div class="container">
+        <img src="image/caro/caro7.jpg">
+      </div>
+    </div><div class="carousel-item">
+      <div class="container">
+        <img src="image/caro/caro8.jpg">
+      </div>
+    </div><div class="carousel-item">
+      <div class="container">
+        <img src="image/caro/caro9.jpg">
       </div>
     </div>
   </div>
@@ -94,21 +123,17 @@ background-size: cover;
 <script type="text/javascript">
   $(document).ready(function(){
     $('.carousel').carousel({
-      dist:-100,
+      dist:-150,
       padding:0,
       indicators:true,
       duration:200,
     });
   });
-  autoplay()
-  function autoplay(){
-    $('.carousel').carousel('next');
-    setTimeout(autoplay,3);
-  }
+  
 
 </script>
-<h2 align="center">Beauty of Myanmar</h2>
-  
+<!-- <h2 align="center">Beauty of Myanmar</h2>
+ -->  
 
 <footer class="mdl-mega-footer">
       <div class="mdl-mega-footer__middle-section">
